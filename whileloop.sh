@@ -1,12 +1,12 @@
 #!/bin/bash
 
-counter=0
+counter=2
  
-while [ $counter -lt 5 ]
+while true
 do
   echo "Looping ...."
   echo "Value of counter is $counter."
-  counter=$(($counter + 1))
+  counter=$(($counter * 2))
   sleep 1
 done
 
